@@ -1,15 +1,17 @@
 const reverseString = require("./reverseString");
 
-test("Reverses a string correctly", () => {
-  expect(reverseString("hello")).toBe("olleh");
-});
+describe("reverseString function", () => {
+  it("should reverse a string correctly", () => {
+    expect(reverseString("hello")).toBe("olleh");
+  });
 
-test("Reverse string with space", () => {
-  expect(reverseString("John Wick")).toBe("kicW nhoJ");
-});
+  it("should reverse a string with spaces", () => {
+    expect(reverseString("John Wick")).toBe("kciW nhoJ");
+  });
 
-test("Empty string throws an error", () => {
-  expect(() => {
-    reverseString("");
-  }).toThrow("String should not be empty");
+  it("should throw an error for an empty string", () => {
+    expect(() => {
+      reverseString("");
+    }).toThrow("String should not be empty");
+  });
 });

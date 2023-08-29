@@ -5,6 +5,4 @@ const reverseString = (string) => {
   return string.split("").reverse().join("");
 };
 
-reverseString("");
-
 module.exports = reverseString;
