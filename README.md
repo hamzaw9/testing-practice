@@ -57,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 👥 Authors <a name="authors"></a>
   
-👤 **Assem Zhorabay**
+👤 **Hamza Baig**
 
 - GitHub: [@hamzabaig](https://github.com/hamzaw9)
 - Twitter: [@hamzabaig](https://twitter.com/hamzabaig059)
