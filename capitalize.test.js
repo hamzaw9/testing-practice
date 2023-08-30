@@ -5,7 +5,7 @@ describe("Capitalize String", () => {
     expect(capitalize("hello")).toBe("Hello");
   });
 
-  it("", () => {
+  it("Should throw an error for integers", () => {
     expect(() => {
       capitalize(2);
     }).toThrow("Integers are not allowed!");
